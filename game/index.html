@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>VAULTBREAK — The Midnight Heist</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  html, body { margin: 0; padding: 0; background: #05070f; height: 100%; }
+  body { display: flex; flex-direction: column; align-items: center; justify-content: center; font-family: sans-serif; }
+  canvas { width: 1280px; height: 853px; max-width: 100vw; max-height: 100vh; background: #0a0f1e; }
+  #selftest-result { display: none; }
+</style>
+</head>
+<body>
+<canvas id="game" width="960" height="640"></canvas>
+<div id="selftest-result"></div>
+<script src="src/config.js"></script>
+<script src="src/world.js"></script>
+<script src="src/guard.js"></script>
+<script src="src/camera.js"></script>
+<script src="src/audio.js"></script>
+<script src="src/input.js"></script>
+<script src="src/render.js"></script>
+<script src="src/main.js"></script>
+</body>
+</html>
